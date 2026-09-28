@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Predicción Machine Learning</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <div class="icono-principal">
+            📊
+        </div>
+
+        <h1>Predicción con Random Forest</h1>
+
+        <p class="descripcion">
+            Ingrese los valores solicitados para obtener una predicción
+            mediante el modelo de Machine Learning.
+        </p>
+
+        <form method="POST">
+
+            <div class="campo">
+                <label for="mean_radius">Mean Radius</label>
+
+                <input
+                    id="mean_radius"
+                    type="number"
+                    step="any"
+                    name="mean_radius"
+                    placeholder="Ej: 14.13"
+                    required>
+            </div>
+
+            <div class="campo">
+                <label for="mean_texture">Mean Texture</label>
+
+                <input
+                    id="mean_texture"
+                    type="number"
+                    step="any"
+                    name="mean_texture"
+                    placeholder="Ej: 19.83"
+                    required>
+            </div>
+
+            <div class="campo">
+                <label for="mean_area">Mean Area</label>
+
+                <input
+                    id="mean_area"
+                    type="number"
+                    step="any"
+                    name="mean_area"
+                    placeholder="Ej: 800"
+                    required>
+            </div>
+
+            <div class="campo">
+                <label for="mean_concavity">Mean Concavity</label>
+
+                <input
+                    id="mean_concavity"
+                    type="number"
+                    step="any"
+                    name="mean_concavity"
+                    placeholder="Ej: 0.09"
+                    required>
+            </div>
+
+            <div class="boton-contenedor">
+                <button type="submit">
+                    Realizar predicción
+                </button>
+            </div>
+
+        </form>
+
+        {% if prediccion %}
+
+            {% if prediccion == "Benigno" %}
+
+                <section class="resultado resultado-benigno">
+
+                    <div class="resultado-icono">
+                        ✓
+                    </div>
+
+                    <div class="resultado-texto">
+                        <h2>Resultado</h2>
+
+                        <p>
+                            Predicción del modelo:
+                            <strong>{{ prediccion }}</strong>
+                        </p>
+                    </div>
+
+                </section>
+
+            {% else %}
+
+                <section class="resultado resultado-maligno">
+
+                    <div class="resultado-icono">
+                        !
+                    </div>
+
+                    <div class="resultado-texto">
+                        <h2>Resultado</h2>
+
+                        <p>
+                            Predicción del modelo:
+                            <strong>{{ prediccion }}</strong>
+                        </p>
+                    </div>
+
+                </section>
+
+            {% endif %}
+
+        {% endif %}
+
+
+        <div class="separador"></div>
+
+        <footer>
+            Aplicación desarrollada con Flask y un Modelo Random Forest.
+            <br>
+            Grupo 15
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

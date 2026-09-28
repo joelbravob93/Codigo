@@ -60,12 +60,38 @@ Incluye prácticas relacionadas con:
 
 ---
 
+### 🤖 Databricks ML Deployment
+
+Proyecto académico desarrollado en el módulo **Inteligencia Artificial y Machine Learning**, enfocado en el procesamiento de datos mediante **Databricks**, la generación y almacenamiento de un modelo predictivo y su posterior integración con una aplicación web.
+
+El proyecto contempla:
+
+- Procesamiento y transformación de datos mediante ETL en Databricks.
+- Entrenamiento y evaluación de un modelo predictivo.
+- Descarga y almacenamiento del modelo entrenado en formato `.pkl`.
+- Desarrollo de un backend utilizando Flask.
+- Integración del modelo predictivo con una aplicación web.
+- Consumo del modelo desde la aplicación para generar predicciones.
+
+**Tecnologías utilizadas:**
+
+- Python
+- Databricks
+- Pandas
+- Scikit-learn
+- Joblib
+- Flask
+- HTML
+- Machine Learning
+
+---
+
 ### 🔄 Modelado de Procesos de Negocios (BPMN)
 
 Trabajos académicos desarrollados utilizando **BPMN y Bizagi Modeler**, orientados al análisis,
 modelamiento, simulación y mejora de procesos de negocio.
 
-#### 🏭 Semana 6 – Productos Defectuosos S.A.
+#### 🏭 Productos Defectuosos S.A.
 
 Modelamiento del proceso de **gestión de reclamos**, incorporando:
 
@@ -77,7 +103,7 @@ Modelamiento del proceso de **gestión de reclamos**, incorporando:
 - Identificación de puntos de mejora y posibles cuellos de botella
 - Registro y generación de información para apoyar la gestión
 
-#### 🏥 Semana 7 – Hospital de Alta Complejidad
+#### 🏥 Hospital de Alta Complejidad
 
 Modelamiento de un proceso hospitalario orientado a mejorar la eficiencia de la atención y la gestión de recursos.
 
