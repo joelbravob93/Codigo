@@ -12,7 +12,7 @@ autónomos orientados a la toma de decisiones.
 
 ### 🔹 SalesPredictor-AI 📚
 
-🔗 https://github.com/Pankache00/SalesPredictor-AI
+🔗 https://github.com/joelbravob93/SalesPredictor-AI
 
 Proyecto orientado a la **predicción de demanda en un contexto retail ficticio**, utilizando
 **SARIMAX**, un **ETL reproducible en Python** y análisis estadístico para apoyar la gestión comercial
@@ -39,8 +39,24 @@ Proyecto académico enfocado en:
 
 - modelado de datos relacional
 - bases de datos SQLite
-- integración SQL + Python  
-  Representa una etapa intermedia de consolidación de fundamentos técnicos.
+- integración SQL + Python
+
+Representa una etapa intermedia de consolidación de fundamentos técnicos.
+
+---
+
+### ⛏️ Minería de Datos
+
+Ejercicios y trabajos académicos desarrollados durante el **5.º semestre de Ingeniería en Data Science**.
+
+Incluye prácticas relacionadas con:
+
+- Árboles de Decisión para clasificación
+- Árboles de Decisión para regresión
+- Random Forest
+- K-Means
+- DBSCAN
+- Evaluación de modelos de Machine Learning
 
 ---
 
@@ -65,5 +81,5 @@ de análisis de datos.
 
 ## 🚀 Estado actual
 
-Actualmente continúo desarrollando proyectos orientados a análisis de datos, visualización y modelado,
-con el objetivo de fortalecer un portafolio aplicado a problemas reales de negocio.
+Actualmente continúo desarrollando proyectos académicos y personales orientados al análisis de datos,
+visualización y modelado, con el objetivo de fortalecer progresivamente mi formación y portafolio.
